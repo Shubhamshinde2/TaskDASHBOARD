@@ -1,0 +1,19 @@
+<div style="padding-left: 50vh; font-size: x-large;">
+  <h6>Dashboard</h6>
+  <ejs-chart [primaryXAxis]="xAxis" [title]="chartTitle">
+    <e-series-collection>
+      <e-series type="Line" [dataSource]="data" xName="month" yName="sales"></e-series>
+
+    </e-series-collection>
+  </ejs-chart>`
+
+  <ejs-accumulationchart>
+    <e-accumulation-series-collection>
+      <e-accumulation-series type='pie' [dataSource]="Chart" xName="name" yName="Value">
+
+      </e-accumulation-series>
+    </e-accumulation-series-collection>
+  </ejs-accumulationchart>
+
+
+</div>

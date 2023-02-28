@@ -1,0 +1,58 @@
+*{
+    height: top;
+}
+h2{
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    color:black;
+
+    padding: 30px;
+}
+.container {
+  height: 100vh;
+  background-color:whitesmoke;
+  width: 50vh;
+  position: fixed;
+
+}
+
+
+ul i{
+
+    display: flex;
+    align-items: column;
+
+    font-size: 14px;
+    color: green;
+}
+
+ul i:hover{
+
+    color: green;
+}
+
+i {
+  cursor: pointer;
+
+  margin: 0px 20px;
+
+padding: 20px;
+
+ 
+}
+
+i:hover{
+
+    cursor: pointer;
+
+    color: #fff;
+}
+
+.icon{
+
+    font-size: 20px;
+    margin-right: 20px;
+}
